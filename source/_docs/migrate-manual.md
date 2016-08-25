@@ -46,7 +46,7 @@ If you'd like to retain existing Git History, see [Migrating Sites to Pantheon: 
 
 ## Step 3: Add Database
 
-Your site's database is a single `.sql` dump that contains the content and active state of the site's configuration. If you haven't done so already, you may want to remove data from cache tables to make the `.sql` file much smaller and your import that much quicker.
+Your site's database is a single `.sql` dump that contains the content and active state of the site's configuration. If you haven't done so already, you must remove data from cache tables to make upload your `.sql`.
 
 You can use either the Pantheon Dashboard or a MySQL Client to add your site's database.
 
